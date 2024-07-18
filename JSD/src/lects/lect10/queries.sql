@@ -1,0 +1,3 @@
+-- queries
+SELECT *
+FROM SUPPLIER;

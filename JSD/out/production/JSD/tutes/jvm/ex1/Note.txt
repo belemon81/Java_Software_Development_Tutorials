@@ -1,0 +1,7 @@
+EX1: Process:
+	> javac AreaApp.java RectangleArea.java
+	> jar cf area.jar RectangleArea.class
+	> java -cp area.jar;. AreaApp
+		or: java -cp ./shared/area.jar;. AreaApp
+	> place area.jar in jre/lib/ext
+	> java AreaApp
